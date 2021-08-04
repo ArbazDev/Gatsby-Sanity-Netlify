@@ -1,0 +1,55 @@
+Arguments: 
+  D:\nodejs\node.exe C:\Users\AArbaz\AppData\Roaming\npm\node_modules\@sanity\cli\vendor\yarn install --json --non-interactive --ignore-engines --registry https://registry.npmjs.org
+
+PATH: 
+  F:\app1\backend\node_modules\.bin;F:\app1\node_modules\.bin;F:\node_modules\.bin;D:\nodejs;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Git\cmd;D:\nodejs\;C:\Program Files\Git\cmd;C:\Users\AArbaz\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-16.0.1\bin;C:\src\flutter\bin;D:\Microsoft VS Code\bin;C:\Users\AArbaz\AppData\Roaming\npm;C:\Users\AArbaz\Desktop\flutter\bin;C:\Users\AArbaz\AppData\Local\Programs\Python\Python39;C:\Users\AArbaz\AppData\Local\Programs\Python\Python39\Scripts;
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  14.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.20.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+npm manifest: 
+  {
+    "name": "delis",
+    "private": true,
+    "version": "1.0.0",
+    "description": "",
+    "main": "package.json",
+    "author": "DELIS TRANSPORT <delistrans1@gmail.com>",
+    "license": "UNLICENSED",
+    "scripts": {
+      "start": "sanity start",
+      "build": "sanity build"
+    },
+    "keywords": [
+      "sanity"
+    ],
+    "dependencies": {
+      "@sanity/base": "^2.13.0",
+      "@sanity/components": "^2.13.0",
+      "@sanity/core": "^2.13.0",
+      "@sanity/default-layout": "^2.13.0",
+      "@sanity/default-login": "^2.13.0",
+      "@sanity/desk-tool": "^2.13.0",
+      "@sanity/vision": "^2.13.0",
+      "prop-types": "^15.7",
+      "react": "^17.0",
+      "react-dom": "^17.0"
+    },
+    "devDependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
